@@ -1,0 +1,26 @@
+{
+  "name": "r-currency-convertor",
+  "version": "1.0.0",
+  "description": "A npm package to convert currency",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruman7860/r-currency-convertor.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Md Ruman",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Ruman7860/r-currency-convertor/issues"
+  },
+  "homepage": "https://github.com/Ruman7860/r-currency-convertor#readme",
+  "dependencies": {
+    "@everapi/freecurrencyapi-js": "^1.0.1"
+  }
+}
