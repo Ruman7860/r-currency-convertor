@@ -25,6 +25,7 @@ import convertCurrency from "r-currency-convertor";
 
 async function convert() {
   try {
+    // const amount = await convertCurrency(fromCurrency, toCurrency, units);
     const amount = await convertCurrency("USD", "INR", 100);
     console.log(`100 USD = ${amount} INR`);
   } catch (error) {
